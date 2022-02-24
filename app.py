@@ -1,6 +1,4 @@
 
-
-   
 import streamlit as st
 import pickle
 import string
@@ -55,3 +53,5 @@ if st.button('Predict'):
         st.header("Spam")
     else:
         st.header("Not Spam")
+
+    print("Hello World");
